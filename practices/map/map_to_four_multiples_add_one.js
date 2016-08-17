@@ -1,6 +1,10 @@
-'use strict';
-var map_to_four_multiples_add_one = function(collection){
-  return [5,9,13,17,21];
+'use strict'
+/*global module*/
+
+var map_to_four_multiples_add_one = function (collection_a) {
+  return collection_a.map(function (element) {
+    return element * 4 + 1;
+  });
 };
 
-module.exports = map_to_four_multiples_add_one;
+  module.exports = map_to_four_multiples_add_one;
