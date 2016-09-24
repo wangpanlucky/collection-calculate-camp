@@ -8,7 +8,7 @@ function compute_chain_median(collection) {
   }).sort(function (a, b) {
     return a - b;
   });
-  let t = arr3.length / 2;
+  let t = Math.floor(arr3.length / 2);
   if (arr3.length % 2 === 0) {
     return (arr3[t] + arr3[t - 1]) / 2;
   }
