@@ -7,7 +7,6 @@ function create_updated_collection(collection_a, object_b) {
     return elem.key;
   });
   s = object_b.value;
-
   for (let i = 0; i < t.length; i++) {
     for (let j = 0; j < s.length; j++) {
       if (t[i] === s[j]) {
