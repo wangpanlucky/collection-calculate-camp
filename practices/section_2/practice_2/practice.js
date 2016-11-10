@@ -25,8 +25,6 @@ function count_same_elements(collection) {
       result.push(Object.assign({key: mid[i].key, count: mid[i].count}));
     }
   }
-
-  console.log(result);
   return result;
 
 }
